@@ -1,0 +1,17 @@
+[package]
+name = "netauth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+clap = { version = "4.5.20", features = ["derive"] }
+crypto = "0.5.1"
+home = "0.5.9"
+md-5 = "0.10.6"
+reqwest = { version = "0.12.8" }
+serde = { version = "1.0.210", features = ["derive"] }
+tokio = { version = "1.40.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+xcfg-rs = { version = "0.3.0", features = ["full"] }
